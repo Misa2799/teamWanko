@@ -18,15 +18,24 @@ header {
   padding: 0 10px;
   float: left;
   font-weight: bold;
+  font-family: "Nico Moji";
 }
 body {
   background-color: #98dbc6;
 }
+#mypic {
+  cursor: url("https://cdn.glitch.global/cf6bae63-4df6-4921-804a-1e3d0c3887a1/なでなで手使う?v=1711040398823
+"),
+    auto;
+  height: 400px;
+}
+#mypic:active {
+  box-shadow: none;
+  transform: translateY(3px);
+}
 .top-wrapper {
   text-align: center;
-}
-.contents {
-  height: 500px;
+  font-family: "Nico Moji";
 }
 .contents-item {
   float: left;
@@ -47,18 +56,54 @@ body {
 .btn:hover {
   opacity: 1;
 }
-.white {
-  background-color: black;
-}
-.red {
+#btn1 {
   background-color: red;
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
 }
-.orange {
+#btn2 {
   background-color: orange;
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
 }
-.brown {
+#btn3 {
   background-color: brown;
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
 }
 .btn-wrapper {
   margin: 20px;
+  text-align: center;
 }
+#img:active {
+  box-shadow: none;
+  transform: translateY(3px);
+}
+#img {
+  cursor: url("
+https://cdn.glitch.global/cf6bae63-4df6-4921-804a-1e3d0c3887a1/なでなで手使う?v=1711040398823
+"),
+    auto;
+}
+/*
+.illustration {
+ max-width: 100%;
+ max-height: var(--image-max-width);
+ margin-top: var(--image-margin);
+}
+*/
